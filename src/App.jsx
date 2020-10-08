@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Background from './components/Background';
 import Intro from './components/Intro';
-import Header from './components/Header';
 import styles from './App.module.css';
 
 function App() {
@@ -10,9 +8,7 @@ function App() {
   return (
     <div className={`App ${light ? styles.light : styles.dark}`}>
       <div>
-        <Header setLight={setLight} />
-        <Intro />
-        <Background />
+        <Intro></Intro>
       </div>
     </div>
   );
