@@ -1,18 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
-import Background from './components/Background';
 import Intro from './components/Intro';
-import Header from './components/Header';
+import FunnySans from './components/FunnySans';
 import styles from './App.module.css';
 
 function App() {
-  const [light, setLight] = useState(true);
+  const [light, setLight] = useState(false);
   return (
-    <div className={`App ${light ? styles.light : styles.dark}`}>
+    <div className={`App ${styles.main} ${light ? styles.light : styles.dark}`}>
       <div>
-        <Header setLight={setLight} />
+        <FunnySans />
         <Intro />
-        <Background />
       </div>
     </div>
   );
