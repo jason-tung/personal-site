@@ -1,0 +1,14 @@
+.me {
+  height: 400px;
+  margin: 20px;
+  margin-bottom: 5px;
+}
+
+.cap {
+  width: 400px;
+  margin: auto auto !important;
+}
+
+.wholeThing {
+  padding: 30px 0;
+}
