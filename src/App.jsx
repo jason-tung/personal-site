@@ -1,17 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import Intro from './components/Intro';
-import FunnySans from './components/FunnySans';
-import styles from './App.module.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Main from './components/Main'
+import Resume from './components/Resume'
+import res from './assets/resume.pdf'
 
 function App() {
-  const [light, setLight] = useState(false);
   return (
-    <div className={`App ${styles.main} ${light ? styles.light : styles.dark}`}>
-      <div>
-        <FunnySans />
-        <Intro />
-      </div>
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route path="/resume">
+
+            <Redirect to={res} target="_blank" />
+
+          </Route>
+          <Route path="/">
+            <Main />
+          </Route>
+
+        </Switch>
+      </Router>
     </div>
   );
 }
