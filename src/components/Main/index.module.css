@@ -1,0 +1,13 @@
+.light {
+  color: black !important;
+  background-color: white;
+}
+
+.dark {
+  color: white !important;
+  background-color: #121212;
+}
+
+.main {
+  height: 5000px;
+}
