@@ -10,4 +10,11 @@
 
 .main {
   height: 5000px;
+  width: 100%;
+}
+
+.cont {
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
 }
