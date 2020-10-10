@@ -16,8 +16,8 @@ export default () => {
     clicksRef.current = clicksRef.current + 1;
     let clicks = clicksRef.current;
     if (clicks > 15){
-      window.localStorage.setItem("jasonSecretRevealed", true);
-      setDisplaySecret(true);
+      window.localStorage.setItem("jasonSecretRevealed", "true");
+      setDisplaySecret("true");
       alert("look what you did... you broke the button...")
     }
     else if (clicks > 10){
@@ -41,6 +41,6 @@ export default () => {
   </Button>
   
   return <div className={styles.contain}>
-    {displaySecret ? "secret fd" : <CoolButton className = {styles.secret} > {message} </CoolButton>}
+    {displaySecret === "true" ? <a href = "/secret" className={styles.secret}> What's this? A secret link? </a> : <CoolButton className = {styles.secret} > {message} </CoolButton>}
     </div>
 }
