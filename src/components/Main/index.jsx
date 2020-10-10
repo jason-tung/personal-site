@@ -5,6 +5,7 @@ import Links from '../Links';
 import About from '../About';
 import WhatIDo from '../WhatIDo';
 import Projects from '../Projects';
+import SecretButton from '../SecretButton';
 import styles from './index.module.css'
 
 export default () => {
@@ -17,6 +18,7 @@ export default () => {
       <About />
       <WhatIDo />
       <Projects />
+      <SecretButton />
     </div>
   </div>
 }
