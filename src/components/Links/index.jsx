@@ -2,7 +2,9 @@ import React, {useState} from 'react'
 import res from '../../assets/resume.pdf';
 import {Button} from '@material-ui/core'
 import styles from './index.module.css'
-
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import AttachmentIcon from '@material-ui/icons/Attachment';
 const CoolButton = ({children}) =>
   <Button variant = "outlined" color = "primary" className = {styles.but}>
     {children}
@@ -17,14 +19,14 @@ export default () => {
   return <div><div className = {styles.butdiv}>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/jason-tung/">
     <CoolButton  >
-    GitHub
+    GitHub &nbsp; <GitHubIcon />
     </CoolButton>
   </a>
   <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jason-tung/"><CoolButton  >
-    LinkedIn
+    LinkedIn &nbsp; <LinkedInIcon />
     </CoolButton></a>
   <a target="_blank" rel="noopener noreferrer" href={res}><CoolButton  >
-    Resume
+    Resume &nbsp; <AttachmentIcon />
     </CoolButton></a>
 </div>
 <div className = {styles.bottomthing}>
