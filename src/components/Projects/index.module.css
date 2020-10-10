@@ -10,12 +10,16 @@
 }
 
 .pjdiv {
-  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 55px;
+  max-width: 1075px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.pjdiv > div {
-  flex: 0 50%;
+@media only screen and (max-width: 1200px) {
+  .pjdiv > div {
+    flex-basis: 100%;
+  }
 }

@@ -9,12 +9,12 @@
 }
 
 .main {
-  height: 5000px;
+  padding-bottom: 50px;
   width: 100%;
 }
 
 .cont {
-  max-width: 1200px;
+  max-width: 1075px;
   width: 100%;
   margin: auto;
 }
