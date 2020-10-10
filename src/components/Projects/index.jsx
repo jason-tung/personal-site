@@ -2,6 +2,7 @@ import React from 'react'
 import {Typography} from '@material-ui/core'
 import styles from './index.module.css'
 import ProjectCard from '../ProjectCard'
+import Anchor from '../Anchor'
 
 import samwise1 from '../../assets/samwise-splash.png'
 import samwise2 from '../../assets/samwise-use.png'
@@ -35,32 +36,33 @@ export default () => {
             <div className = {styles.pjdiv}>
                   {/* samwise */}
                   <ProjectCard {...samwise}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
+                  Samwise is a planner which enables students to schedule tasks while also featuring integrations that import important deadlines and dates such as homework or exams. Right now, we are working on implementing group tasks to enable better communication and synchronization between students. Built with React, Firebase, and Typescript. 
                   </ProjectCard>
                   {/* this website */}
                   <ProjectCard {...website}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
+                  This website! I've been meaning to get around to building a website for two to three years now, and it's finally here! For the entirety of those several years, my domain just hosted a plain text file with the words "under construction..." and my resume html file in some subdirectory. This wasn't the most technically challenging, but it was a lot of fun! Built with React, JS, CSS, and lots of love :) 
                   </ProjectCard>
                   
             </div>
             <div className = {styles.pjdiv}>
                   {/* gpstuy */}
                   <ProjectCard {...gpstuy}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
+                  My highschool was 10 floors high and each floor had something like 30-40 rooms, which meant every September, the halls were mobbed by confused freshmen on the verge of tears because they were about to be 2 minutes late to their gym class. 
+                  To remedy this great tragedy, team GPStuy came up with... GPStuy! It's like GPS... but for Stuy!! GPStuy's primary feature was a pathfinding algo which found the shortest path between two rooms, but also had other wacky features like storing classes to easily load into the path search and reporting the current bell period. Built with Flask, Jinja, and sqlite.
                   </ProjectCard>
                   {/* mieses */}
                   <ProjectCard {...mieses}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
+                  miesesOpening was a class project for the data visualization unit of my high school software development class. This webapp plotted stat distributions of pokemon categories and featured and inverse search function where pokemon were filtered by stat ranges and type. This was built using pymongo, flask, jinja, bootstrap, and D3.
                   </ProjectCard>
             </div>
             <div className = {styles.pjdiv}>
                   {/* mnist */}
                   <ProjectCard {...mnist}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
+                  This project recreated a very popular neural net model that reads handwritten numbers using data from the MNIST database. It was written entirely from scratch in Java (bar the standard library) and came with a GUI to handdraw and test the neural net against your own handdrawnn numbers rather than artificial training data. Built with Java and Processing.
                   </ProjectCard>
                   {/* music */}
                   <ProjectCard {...deepplayer}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
+                  DeepPlayer was a project for StuyHacks Spring 2018 that was supposed to be a neural net which generated country music, and it kind of did that, but not very well. The GUI is rather ugly, so I will spare your eyes from having to look at it. On the bright side: we did win an honorable mention with this project!
                   </ProjectCard>
             </div>
             </div>

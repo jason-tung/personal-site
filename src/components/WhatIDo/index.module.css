@@ -9,3 +9,9 @@
   padding: 5px 0;
   text-align: left !important;
 }
+
+.lnk {
+  text-decoration: dotted underline white;
+  color: white;
+  font-weight: 600;
+}
