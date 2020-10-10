@@ -4,7 +4,7 @@ import styles from './index.module.css';
 
 export default ({title, link, image, image2, children}) => {
   const img2 = useRef();
-  return <a href={link} target="_blank" rel="noopener noreferrer">
+  return <div className= {styles.wrap}> <a href={link} target="_blank" rel="noopener noreferrer">
     <div className = {styles.card} 
     onMouseEnter={() => {img2.current.style.opacity = 1}}
     onMouseLeave={() => {img2.current.style.opacity = 0}}
@@ -23,5 +23,5 @@ export default ({title, link, image, image2, children}) => {
         {children}
       </Typography>
     </div>
-  </a>
+  </a></div>
 }

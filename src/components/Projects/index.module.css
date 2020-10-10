@@ -1,5 +1,6 @@
 .contain {
   max-width: 80%;
+  width: 850px;
   margin: 30px auto;
 }
 
@@ -9,5 +10,12 @@
 }
 
 .pjdiv {
-  margin: 20px 0;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pjdiv > div {
+  flex: 0 50%;
 }
