@@ -17,7 +17,7 @@ a {
 }
 
 .butdiv {
-  max-width: 400px;
+  max-width: 415px;
   width: 80%;
   margin: auto;
   display: flex;
@@ -25,7 +25,7 @@ a {
 }
 
 .but {
-  font-weight: 525 !important;
+  font-weight: 600 !important;
   font-size: 16px !important;
   border-width: 2px !important;
   border-color: white !important;

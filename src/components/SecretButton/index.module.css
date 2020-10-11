@@ -4,6 +4,15 @@
   font-weight: 700;
 }
 
+.secretBut {
+  max-width: 300px !important;
+  width: auto !important;
+}
+
+.contain {
+  height: 38px;
+}
+
 .secret:hover {
   opacity: 1;
   animation: fadeIn 0.5s infinite alternate;
@@ -15,7 +24,7 @@
 }
 
 .but {
-  font-weight: 525 !important;
+  font-weight: 600 !important;
   font-size: 16px !important;
   border-width: 2px !important;
   border-color: white !important;
@@ -23,7 +32,8 @@
   box-shadow: 4px 4px 0 white;
   transition: all 0.132s ease !important;
   text-transform: none !important;
-  width: 260px;
+  max-width: 260px;
+  width: 80% !important;
 }
 
 .but:hover {

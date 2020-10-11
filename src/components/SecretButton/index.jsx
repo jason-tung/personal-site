@@ -39,8 +39,14 @@ export default () => {
   onClick = {handleClick}>
   {children}
   </Button>
+
   
   return <div className={styles.contain}>
-    {displaySecret === "true" ? <a href = "/secret" className={styles.secret}> What's this? A secret link? </a> : <CoolButton className = {styles.secret} > {message} </CoolButton>}
+    {displaySecret === "true" ? <a href = "/secret" className={styles.secret}> What's this? A secret link? </a> : <Button variant = "outlined" 
+color = "primary" 
+className = {`${styles.but} ${styles.secretBut}`}
+onClick = {handleClick}>
+  {message}
+</Button>}
     </div>
 }
