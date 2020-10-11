@@ -15,6 +15,8 @@ import mnist2 from '../../assets/mnist2.png'
 import deepplayer1 from '../../assets/deepplayer.png'
 import website1 from '../../assets/website1.png'
 import website2 from '../../assets/website2.png'
+import shef1 from '../../assets/shef1.png'
+import shef2 from '../../assets/shef2.png'
 
 
 export default () => {
@@ -22,6 +24,7 @@ export default () => {
       const website = {title: "Personal Site", link: "https://github.com/jason-tung/personal-site", image: website1, image2: website2}
       const gpstuy = {title: "GPStuy", link: "https://github.com/jason-tung/GPStuy", image: gpstuy1, image2: gpstuy2}
       const mieses = {title: "miesesOpening", link: "https://github.com/jason-tung/miesesOpening", image: mieses1, image2: mieses2}
+      const shef = {title: "Shef", link: "https://github.com/helenxuyang/dti_hackathon_2020", image: shef1, image2: shef2}
       const mnist = {title: "mnist", link: "https://github.com/jason-tung/mnist", image: mnist1, image2: mnist2}
       const deepplayer = {title: "DeepPlayer", link: "https://github.com/kieracawley/DeepPlayer", image: deepplayer1, image2: deepplayer1}
       return (
@@ -37,32 +40,32 @@ export default () => {
                   {/* samwise */}
                   <ProjectCard {...samwise}>
                   Samwise is a planner which enables students to schedule tasks while also featuring integrations that import important deadlines and dates such as homework or exams. Right now, we are working on implementing group tasks to enable better communication and synchronization between students. Built with React, Firebase, and Typescript. 
-                  </ProjectCard>
-                  {/* this website */}
-                  <ProjectCard {...website}>
-                  This website! I've been meaning to get around to building a website for two to three years now, and it's finally here! For the entirety of those several years, my domain just hosted a plain text file with the words "under construction..." and my resume html file in some subdirectory. This wasn't the most technically challenging, but it was a lot of fun! Built with React, JS, CSS, and lots of love :) 
+                  </ProjectCard>{/* samwise */}
+                  <ProjectCard {...shef}>
+                  Shef is a recipe app aimed at busy students who can't find the time to make a Michelin star meal but also doesn't have the dough to order Doordash every day! Shef is a mobile app that encourages its users to make simple meals (typically &lt;3 ingredients (yes that is intentional and yes I just nested parentheses!)), share their simple recipes with others, and make posts related to anything food related that their hearts desire ～(^з^)-♡ Built with Flutter and CSS.
                   </ProjectCard>
                   
             </div>
             <div className = {styles.pjdiv}>
+                  {/* this website */}
+                  <ProjectCard {...website}>
+                  This website! I've been meaning to get around to building a website for two to three years now, and it's finally here! For the entirety of those several years, my domain just hosted a plain text file with the words "under construction..." and my resume html file in some subdirectory. This wasn't the most technically challenging, but it was a lot of fun! Built with React, JS, CSS, and lots of love :) 
+                  </ProjectCard>
                   {/* gpstuy */}
                   <ProjectCard {...gpstuy}>
                   My highschool was 10 floors high and each floor had something like 30-40 rooms, which meant every September, the halls were mobbed by confused freshmen on the verge of tears because they were about to be 2 minutes late to their gym class. 
                   To remedy this great tragedy, team GPStuy came up with... GPStuy! It's like GPS... but for Stuy!! GPStuy's primary feature was a pathfinding algo which found the shortest path between two rooms, but also had other wacky features like storing classes to easily load into the path search and reporting the current bell period. Built with Flask, Jinja, and sqlite.
                   </ProjectCard>
+            </div>
+            <div className = {styles.pjdiv}>
+                  
                   {/* mieses */}
                   <ProjectCard {...mieses}>
                   miesesOpening was a class project for the data visualization unit of my high school software development class. This webapp plotted stat distributions of pokemon categories and featured and inverse search function where pokemon were filtered by stat ranges and type. This was built using pymongo, flask, jinja, bootstrap, and D3.
                   </ProjectCard>
-            </div>
-            <div className = {styles.pjdiv}>
                   {/* mnist */}
                   <ProjectCard {...mnist}>
-                  This project recreated a very popular neural net model that reads handwritten numbers using data from the MNIST database. It was written entirely from scratch in Java (bar the standard library) and came with a GUI to handdraw and test the neural net against your own handdrawnn numbers rather than artificial training data. Built with Java and Processing.
-                  </ProjectCard>
-                  {/* music */}
-                  <ProjectCard {...deepplayer}>
-                  DeepPlayer was a project for StuyHacks Spring 2018 that was supposed to be a neural net which generated country music, and it kind of did that, but not very well. The GUI is rather ugly, so I will spare your eyes from having to look at it. On the bright side: we did win an honorable mention with this project!
+                  This project recreated a very popular neural net model that reads handwritten numbers using data from the MNIST database. It was written entirely from scratch in Java (bar the standard library) and came with a GUI to handdraw and test the neural net against your own handdrawn numbers rather than artificial training data. Built with Java and Processing.
                   </ProjectCard>
             </div>
             </div>
