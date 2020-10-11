@@ -1,3 +1,19 @@
+.secret {
+  text-decoration: dotted underline white;
+  color: white;
+  font-weight: 700;
+}
+
+.secret:hover {
+  opacity: 1;
+  animation: fadeIn 0.5s infinite alternate;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 0;
+  }
+}
+
 .but {
   font-weight: 525 !important;
   font-size: 16px !important;
