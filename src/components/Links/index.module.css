@@ -2,6 +2,20 @@ a {
   text-decoration: none;
 }
 
+.bottomthing {
+  max-width: 400px;
+  width: 80%;
+  margin: 28px auto;
+}
+
+.spec {
+  transform: translate(-2px, 0) !important;
+}
+
+.showHold {
+  height: 38px !important;
+}
+
 .butdiv {
   max-width: 400px;
   width: 80%;
