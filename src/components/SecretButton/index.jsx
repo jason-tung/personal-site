@@ -15,15 +15,15 @@ export default () => {
   const handleClick = () => {
     clicksRef.current = clicksRef.current + 1;
     let clicks = clicksRef.current;
-    if (clicks > 15){
+    if (clicks > 12){
       window.localStorage.setItem("jasonSecretRevealed", "true");
       setDisplaySecret("true");
       alert("look what you did... you broke the button...")
     }
-    else if (clicks > 10){
+    else if (clicks > 8){
       setMessage("STOP!!!")
     }
-    else if (clicks > 5){
+    else if (clicks > 4){
       setMessage("stop!!!")
     }
     else if (clicks > 0){

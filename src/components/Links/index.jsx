@@ -43,7 +43,7 @@ export default () => {
     <Button variant = "outlined" color = "primary" 
     onMouseEnter={() => {setShow(true)}}
     className = {`${styles.spec} ${styles.but}`}>
-        Hover this thing for me email!
+        Hover this thing for my email!
     </Button>
     }
   </div>
