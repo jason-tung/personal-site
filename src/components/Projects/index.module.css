@@ -1,0 +1,25 @@
+.contain {
+  max-width: 80%;
+  width: 850px;
+  margin: 30px auto;
+}
+
+.aboutme {
+  padding: 5px 0;
+  text-align: left !important;
+}
+
+.pjdiv {
+  margin: auto;
+  margin-bottom: 55px;
+  max-width: 1075px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+  .pjdiv > div {
+    flex-basis: 100%;
+  }
+}

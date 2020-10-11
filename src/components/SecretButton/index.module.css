@@ -1,27 +1,17 @@
-a {
-  text-decoration: none;
+.secret {
+  text-decoration: dotted underline white;
+  color: white;
+  font-weight: 700;
 }
 
-.bottomthing {
-  max-width: 400px;
-  width: 80%;
-  margin: 28px auto;
+.secret:hover {
+  opacity: 1;
+  animation: fadeIn 0.5s infinite alternate;
 }
-
-.spec {
-  transform: translate(-2px, 0) !important;
-}
-
-.showHold {
-  height: 38px !important;
-}
-
-.butdiv {
-  max-width: 400px;
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
+@keyframes fadeIn {
+  to {
+    opacity: 0;
+  }
 }
 
 .but {
@@ -33,6 +23,7 @@ a {
   box-shadow: 4px 4px 0 white;
   transition: all 0.132s ease !important;
   text-transform: none !important;
+  width: 260px;
 }
 
 .but:hover {

@@ -1,0 +1,17 @@
+.contain {
+  max-width: 80%;
+  width: 850px;
+  margin: 30px auto;
+  margin-top: 0;
+}
+
+.aboutme {
+  padding: 5px 0;
+  text-align: left !important;
+}
+
+.lnk {
+  text-decoration: dotted underline white;
+  color: white;
+  font-weight: 600;
+}

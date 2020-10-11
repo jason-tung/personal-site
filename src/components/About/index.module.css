@@ -1,0 +1,10 @@
+.contain {
+  width: 850px;
+  max-width: 80%;
+  margin: 30px auto;
+}
+
+.aboutme {
+  padding: 5px 0;
+  text-align: left !important;
+}
