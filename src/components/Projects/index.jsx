@@ -42,7 +42,7 @@ export default () => {
                   Samwise is a planner which enables students to schedule tasks while also featuring integrations that import important deadlines and dates such as homework or exams. Right now, we are working on implementing group tasks to enable better communication and synchronization between students. Built with React, Firebase, and Typescript. 
                   </ProjectCard>{/* samwise */}
                   <ProjectCard {...shef}>
-                  Shef is a recipe app aimed at busy students who can't find the time to make a Michelin star meal but also doesn't have the dough to order Doordash every day! Shef is a mobile app that encourages its users to make simple meals (typically &lt;3 ingredients (yes that is intentional and yes I just nested parentheses!)), share their simple recipes with others, and make posts related to anything food related that their hearts desire ～(^з^)-♡ Built with Flutter and CSS.
+                  Shef is a recipe app aimed at busy students who can't find the time to make a Michelin star meal but also doesn't have the dough to order Doordash every day! Shef is a mobile app that encourages its users to make simple meals (typically &lt;3 ingredients (yes that is intentional and yes I just nested parentheses!)), share their simple recipes with others, and make posts related to anything food related that their hearts desire ～(^з^)-♡ This project won DTI's Internal Hackathon, by the way!! Built with Flutter and CSS.
                   </ProjectCard>
                   
             </div>
