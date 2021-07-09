@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import me from '../../assets/squareme.jpg';
+import me from '../../assets/me_07_09_2021.jpg';
 import styles from './index.module.css';
 
 export default () => (
