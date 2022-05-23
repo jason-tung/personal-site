@@ -1,7 +1,7 @@
-import React from 'react';
-import Typography from '@material-ui/core/Typography';
-import me from '../../assets/me_07_09_2021.jpg';
-import styles from './index.module.css';
+import React from "react";
+import Typography from "@material-ui/core/Typography";
+import me from "../../assets/smile.png";
+import styles from "./index.module.css";
 
 export default () => (
   <div className={styles.wholeThing}>
@@ -13,8 +13,8 @@ export default () => (
       align="left"
       className={styles.cap}
     >
-      here's a picture of me! apologies that it's off-center... times are tough
-      in the photography department...
+      here's a picture of me! normally I would write something about it but
+      there's nothing interesting to write.
     </Typography>
   </div>
 );
