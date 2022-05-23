@@ -19,7 +19,10 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .pjdiv > div {
-    flex-basis: 100%;
+  .pjdiv {
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
   }
+
 }
