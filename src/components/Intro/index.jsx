@@ -13,8 +13,7 @@ export default () => (
       align="left"
       className={styles.cap}
     >
-      here's a picture of me! normally I would write something about it but
-      there's nothing interesting to write.
+      here's a picture of me! i always try to write something interesting about them: this one is me at a garden :)
     </Typography>
   </div>
 );
