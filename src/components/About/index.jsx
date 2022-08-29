@@ -11,10 +11,10 @@ export default () => (
       I'm Jason!
     </Typography>
     <Typography variant="body1" aligh="left" className={styles.aboutme}>
-      I'm a junior at Cornell studying computer science. I primarily do web
+      I'm a senior at Cornell studying computer science. I primarily do web
       development, but more generally, I enjoy problem solving using code.
-      Besides that, I enjoy following basketball and olympic lifting. I love
-      going to the gym, cooking, and learning new languages in my free time!
+      Besides that, I enjoy following basketball and bodybuilding. I love
+      going to the gym, running, cooking, and playing guitar!
     </Typography>
     {/* <Typography variant="body1" aligh="left" className={styles.aboutme}>
       Feel free to send me an email or message on social media to get food/coffee - I'm not
