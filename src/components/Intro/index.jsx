@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import me from "../../assets/smile.png";
+import me from "../../assets/smile.jpg";
 import styles from "./index.module.css";
 
 export default () => (
